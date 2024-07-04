@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,aqua,white,pink);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.forms{
+   border: 2px solid black;
+   border-radius: 30px;
+   background-color: transparent;
+   box-shadow: whitesmoke;
+   margin-top: 160px;
+   margin-left: 550px;
+   padding: 20px;
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #49dbe5;
+}
+label{
+    font-size: 20px;
+}
+.b1{
+    margin-left: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:greenyellow;
+    color: white;
+}
+.b2{
+    margin-left: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:yellowgreen;
+    color: white;
+}
+label:hover{
+    color: rgb(162, 16, 224);
+}
+h1:hover{
+    color: rgb(162, 16, 224);
+}
+.b1:hover{
+    background-color: violet;
+    color: black;
+}
+.b2:hover{
+    background-color:purple;
+    color: black;
+}
+input:focus{
+    background-color: #eab676;
+}
+@media (min-width:320px) and (max-width:480px){
+.forms{
+         display: flexbox;
+         width: 50%;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 40px;
+    }
+}
+@media (min-width:480px) and (max-width:768px){
+    .forms{
+             display: flexbox;
+             width: 50%;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 40px;
+        }
+    }
+@media (min-width:768px) and (max-width:1024px){
+        .forms{
+                 display: flexbox;
+                 width: 50%;
+                 margin-left: auto;
+                 margin-right: auto;
+                 margin-top: 140px;
+            }
+        }
+@media (min-width:1024px) and (max-width:1200px){
+            .forms{
+                     display: flexbox;
+                     width: 50%;
+                     margin-left: auto;
+                     margin-right: auto;
+                     margin-top: 120px;
+
+                }
+        }
+@media (min-width:1200px) and (max-width:1400px){
+            .forms{
+                     display: flexbox;
+                     width: 50%;
+                     margin-left: auto;
+                     margin-right: auto;
+                     margin-top: 240px;
+                }
+            }

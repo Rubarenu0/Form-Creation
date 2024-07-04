@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>STUDENT FORM</h1>
+    <div class="form">
+    <table class="forms">
+        <form action="">
+            <tr>
+                <th><label for="Rollno">Student Rollno:</label><br><br></th>
+                <th><input type="number" placeholder="Enter your Rollno" required><br><br></th>
+            </tr>
+            <tr>
+                <th><label for="name">Student Name:</label><br><br></th>
+                <th><input type="text" placeholder="Enter Your Name"><br><br></th>
+            </tr>
+            <tr>
+                <th><label for="dept">Student Department:</label><br><br></th>
+                <th><select name="dep" id="" :active="choose your department">
+                    <option value="">CSE</option>
+                    <option value="">IT</option>
+                    <option value="">AIML</option>
+                    <option value="">ECE</option>
+                    <option value="">EEE</option>
+                </select><br><br></th>
+            </tr>
+            <tr>
+                <th><label for="10mark">10th Mark:</label><br><br></th>
+                <th><input type="number" placeholder="Enter your 10th mark" required><br><br></th>
+            </tr>
+            <tr>
+                <th><label for="12mark">12th Mark:</label><br><br></th>
+                <th><input type="number" placeholder="Enter yout 12th mark" required><br><br></th>
+            </tr>
+            <tr>
+                <th><label for="degree">Degree Percentage:</label><br><br></th>
+                <th><input type="number" placeholder="Enter your Degree Percentage" required><br><br></th>
+            </tr>
+            <tr>
+                <td><button class="b1">Submit</button>
+                    <button class="b2">Cancel</button></td>
+            </tr>
+        </form>
+        
+    </table>
+</div>
+</body>
+</html>
